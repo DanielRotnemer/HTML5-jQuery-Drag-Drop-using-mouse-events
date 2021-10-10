@@ -1,0 +1,28 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+body {
+    background: #454545;
+}
+.parent {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #12a35a;
+    height: 400px;
+    width: 400px;
+}
+.drag-element {
+    position: absolute;
+    display: block;
+    top: 150px;
+    left: 150px;
+    height: 100px;
+    width: 100px;
+    background: #ff5555;
+    cursor: grab;
+}
